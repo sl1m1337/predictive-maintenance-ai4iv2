@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Результати бенчмарку (генеруються train_benchmark.py)
+artifacts/
+
+# Архіви та локальні секрети
+*.zip
+.streamlit/secrets.toml
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
